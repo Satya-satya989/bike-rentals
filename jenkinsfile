@@ -16,15 +16,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Surya8442/project-nodejs-webapp.git'
-            }
-        }
-
-        stage('Install Node Dependencies') {
-            steps {
-                sh '''
-                npm install
-                '''
+                git branch: 'master', url: 'https://github.com/Surya8442/project-nodejs-webapp.git'
             }
         }
 
