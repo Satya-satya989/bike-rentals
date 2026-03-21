@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 1337
+EXPOSE 2002
 
 CMD ["node","server.js"]
